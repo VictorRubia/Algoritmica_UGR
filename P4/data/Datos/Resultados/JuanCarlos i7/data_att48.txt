@@ -1,0 +1,63 @@
+Tiempo (segs) de ejecución del algoritmo dinámico: 3.04e-05
+Coste del camino: 9454
+0 1 
+Tiempo (segs) de ejecución del algoritmo dinámico: 7.1e-06
+Coste del camino: 9518
+0 1 2 
+Tiempo (segs) de ejecución del algoritmo dinámico: 1.86e-05
+Coste del camino: 13105
+0 1 3 2 
+Tiempo (segs) de ejecución del algoritmo dinámico: 4.5e-05
+Coste del camino: 13200
+0 1 3 4 2 
+Tiempo (segs) de ejecución del algoritmo dinámico: 0.0001276
+Coste del camino: 18061
+0 2 1 3 4 5 
+Tiempo (segs) de ejecución del algoritmo dinámico: 0.0003527
+Coste del camino: 18088
+0 2 1 3 4 5 6 
+Tiempo (segs) de ejecución del algoritmo dinámico: 0.0009372
+Coste del camino: 18703
+0 2 1 3 4 5 6 7 
+Tiempo (segs) de ejecución del algoritmo dinámico: 0.0024733
+Coste del camino: 18905
+0 2 1 3 4 5 6 8 7 
+Tiempo (segs) de ejecución del algoritmo dinámico: 0.0064969
+Coste del camino: 19519
+0 2 1 3 9 4 5 6 8 7 
+Tiempo (segs) de ejecución del algoritmo dinámico: 0.0156296
+Coste del camino: 19593
+0 2 1 3 9 4 10 5 6 8 7 
+Tiempo (segs) de ejecución del algoritmo dinámico: 0.037819
+Coste del camino: 19614
+0 2 1 3 9 4 10 11 5 6 8 7 
+Tiempo (segs) de ejecución del algoritmo dinámico: 0.0930297
+Coste del camino: 19729
+0 2 1 3 9 4 12 10 11 5 6 8 7 
+Tiempo (segs) de ejecución del algoritmo dinámico: 0.192854
+Coste del camino: 20031
+0 2 1 3 9 4 13 12 10 11 5 6 8 7 
+Tiempo (segs) de ejecución del algoritmo dinámico: 0.445075
+Coste del camino: 20347
+0 2 1 3 9 4 13 12 10 11 14 5 6 8 7 
+Tiempo (segs) de ejecución del algoritmo dinámico: 0.950175
+Coste del camino: 21097
+0 7 8 6 5 14 11 10 12 13 4 9 3 1 2 15 
+Tiempo (segs) de ejecución del algoritmo dinámico: 2.17881
+Coste del camino: 22448
+0 7 8 6 5 16 14 11 10 12 13 4 9 3 1 2 15 
+Tiempo (segs) de ejecución del algoritmo dinámico: 5.23282
+Coste del camino: 22461
+0 7 8 17 6 5 16 14 11 10 12 13 4 9 3 1 2 15 
+Tiempo (segs) de ejecución del algoritmo dinámico: 11.2497
+Coste del camino: 22505
+0 7 8 17 6 5 18 16 14 11 10 12 13 4 9 3 1 2 15 
+Tiempo (segs) de ejecución del algoritmo dinámico: 25.6514
+Coste del camino: 22961
+0 7 8 14 17 6 5 18 16 19 11 10 12 13 4 9 3 1 2 15 
+Tiempo (segs) de ejecución del algoritmo dinámico: 82.06
+Coste del camino: 24011
+0 7 8 14 17 6 5 18 16 19 11 10 12 20 9 3 1 4 13 2 15 
+Tiempo (segs) de ejecución del algoritmo dinámico: 208.543
+Coste del camino: 24154
+0 7 8 14 17 6 5 18 16 19 11 10 12 20 9 3 1 4 13 2 21 15 

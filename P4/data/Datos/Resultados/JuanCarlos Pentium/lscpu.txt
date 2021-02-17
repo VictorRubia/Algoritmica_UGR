@@ -1,0 +1,24 @@
+Arquitectura:          x86_64
+modo(s) de operación de las CPUs:32-bit, 64-bit
+Orden de bytes:        Little Endian
+CPU(s):                2
+On-line CPU(s) list:   0,1
+Hilo(s) de procesamiento por núcleo:1
+Núcleo(s) por «socket»:2
+Socket(s):             1
+Modo(s) NUMA:          1
+ID de fabricante:      GenuineIntel
+Familia de CPU:        6
+Modelo:                42
+Model name:            Intel(R) Pentium(R) CPU B960 @ 2.20GHz
+Revisión:             7
+CPU MHz:               819.221
+CPU max MHz:           2200,0000
+CPU min MHz:           800,0000
+BogoMIPS:              4390.32
+Caché L1d:            32K
+Caché L1i:            32K
+Caché L2:             256K
+Caché L3:             2048K
+NUMA node0 CPU(s):     0,1
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer xsave lahf_lm epb pti ssbd ibrs ibpb stibp xsaveopt dtherm arat pln pts md_clear flush_l1d

@@ -1,0 +1,303 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2511
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;\f1\froman\fcharset0 Times-Roman;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red0\green0\blue233;}
+{\*\expandedcolortbl;;\csgray\c0;\cssrgb\c0\c0\c93333;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww19300\viewh14000\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs22 \cf2 \CocoaLigature0 gnuplot> fit f(x) 'burbujaComparar.txt' via a0,a1,a2\
+iter      chisq       delta/lim  lambda   a0            a1            a2           \
+   0 3.6775877529e+16   0.00e+00  2.22e+07    1.000000e+00   1.000000e+00   1.000000e+00\
+   1 6.3675078174e+12  -5.77e+08  2.22e+06    1.560293e-02   9.998762e-01   1.000000e+00\
+   2 4.9318677664e+08  -1.29e+09  2.22e+05    2.479391e-03   9.998474e-01   1.000000e+00\
+   3 4.9234878502e+08  -1.70e+02  2.22e+04    2.477982e-03   9.971361e-01   9.999990e-01\
+   4 4.2826814476e+08  -1.50e+04  2.22e+03    2.509323e-03   7.474541e-01   9.999082e-01\
+   5 7.4570553145e+07  -4.74e+05  2.22e+02    2.836098e-03  -1.855797e+00   1.000675e+00\
+   6 7.0679758536e+07  -5.50e+03  2.22e+01    2.874097e-03  -2.158544e+00   1.191750e+00\
+   7 7.0326150077e+07  -5.03e+02  2.22e+00    2.874865e-03  -2.167208e+00   2.007361e+01\
+   8 5.9150039565e+07  -1.89e+04  2.22e-01    2.906828e-03  -2.534047e+00   8.534127e+02\
+   9 5.6446668620e+07  -4.79e+03  2.22e-02    2.931881e-03  -2.821583e+00   1.506598e+03\
+  10 5.6446502523e+07  -2.94e-01  2.22e-03    2.932078e-03  -2.823854e+00   1.511758e+03\
+iter      chisq       delta/lim  lambda   a0            a1            a2           \
+\
+After 10 iterations the fit converged.\
+final sum of squares of residuals : 5.64465e+07\
+rel. change during last iteration : -2.94256e-06\
+\
+degrees of freedom    (FIT_NDF)                        : 22\
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1601.8\
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.56575e+06\
+\
+Final set of parameters            Asymptotic Standard Error\
+=======================            ==========================\
+a0              = 0.00293208       +/- 4.037e-05    (1.377%)\
+a1              = -2.82385         +/- 0.3746       (13.26%)\
+a2              = 1511.76          +/- 641.3        (42.42%)\
+\
+correlation matrix of the fit parameters:\
+                a0     a1     a2     \
+a0              1.000 \
+a1             -0.962  1.000 \
+a2              0.609 -0.754  1.000 \
+gnuplot> plot 'burbujaComparar.txt' f(x) title 'Curva ajustada'\
+qt.qpa.fonts: Populating font family aliases took 220 ms. Replace uses of missing font family "Sans" with one that exists to avoid this cost. \
+\
+\
+\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+\
+gnuplot> fit f(x) 'datosInsercion.txt' via a0,a1,a2\
+iter      chisq       delta/lim  lambda   a0            a1            a2           \
+   0 1.2465677383e+11   0.00e+00  6.56e+04    2.932078e-03  -2.823854e+00   1.511758e+03\
+   1 2.8787865409e+08  -4.32e+07  6.56e+03    1.125341e-03  -2.852191e+00   1.520855e+03\
+   2 3.6463358036e+07  -6.90e+05  6.56e+02    8.357713e-04  -7.094614e-01   1.294261e+03\
+   3 1.9012764338e+07  -9.18e+04  6.56e+01    7.449997e-04   2.101463e-01  -1.671902e+02\
+   4 1.8998541653e+07  -7.49e+01  6.56e+00    7.430237e-04   2.323011e-01  -2.148255e+02\
+   5 1.8998541652e+07  -7.63e-06  6.56e-01    7.430231e-04   2.323081e-01  -2.148407e+02\
+iter      chisq       delta/lim  lambda   a0            a1            a2           \
+\
+After 5 iterations the fit converged.\
+final sum of squares of residuals : 1.89985e+07\
+rel. change during last iteration : -7.63463e-11\
+\
+degrees of freedom    (FIT_NDF)                        : 22\
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 929.285\
+variance of residuals (reduced chisquare) = WSSR/ndf   : 863570\
+\
+Final set of parameters            Asymptotic Standard Error\
+=======================            ==========================\
+a0              = 0.000743023      +/- 2.342e-05    (3.152%)\
+a1              = 0.232308         +/- 0.2173       (93.55%)\
+a2              = -214.841         +/- 372.1        (173.2%)\
+\
+correlation matrix of the fit parameters:\
+                a0     a1     a2     \
+a0              1.000 \
+a1             -0.962  1.000 \
+a2              0.609 -0.754  1.000 \
+\
+\
+\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+\
+gnuplot> fit f(x) 'datosSeleccion.txt' via a0,a1,a2\
+\'e7iter      chisq       delta/lim  lambda   a0            a1            a2           \
+   0 1.1737722551e+07   0.00e+00  1.65e+04    7.430231e-04   2.323081e-01  -2.148407e+02\
+   1 9.8671007902e+06  -1.90e+04  1.65e+03    7.359929e-04   2.323670e-01  -2.146985e+02\
+   2 9.8444057734e+06  -2.31e+02  1.65e+02    7.349985e-04   2.380915e-01  -2.039308e+02\
+   3 9.8013903397e+06  -4.39e+02  1.65e+01    7.369253e-04   2.128275e-01  -1.303094e+02\
+   4 9.8010001850e+06  -3.98e+00  1.65e+00    7.372646e-04   2.090659e-01  -1.224486e+02\
+   5 9.8010001845e+06  -5.00e-06  1.65e-01    7.372650e-04   2.090616e-01  -1.224398e+02\
+iter      chisq       delta/lim  lambda   a0            a1            a2           \
+\
+After 5 iterations the fit converged.\
+final sum of squares of residuals : 9.801e+06\
+rel. change during last iteration : -4.9956e-11\
+\
+degrees of freedom    (FIT_NDF)                        : 22\
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 667.458\
+variance of residuals (reduced chisquare) = WSSR/ndf   : 445500\
+\
+Final set of parameters            Asymptotic Standard Error\
+=======================            ==========================\
+a0              = 0.000737265      +/- 1.682e-05    (2.281%)\
+a1              = 0.209062         +/- 0.1561       (74.66%)\
+a2              = -122.44          +/- 267.2        (218.3%)\
+\
+correlation matrix of the fit parameters:\
+                a0     a1     a2     \
+a0              1.000 \
+a1             -0.962  1.000 \
+a2              0.609 -0.754  1.000 \
+\
+\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+\
+
+\fs14 gnuplot> f(x)=c1*x+c2*x*(log(x)/log(2))\
+gnuplot> fit f(x) 'datosMergesort2.txt' via c1,c2\
+iter      chisq       delta/lim  lambda   c1            c2           \
+   0 4.5932155038e+13   0.00e+00  9.10e+05    1.000000e+00   1.000000e+00\
+   1 1.7778975592e+10  -2.58e+08  9.10e+04    9.390309e-01  -3.097470e-02\
+   2 1.1575887840e+08  -1.53e+07  9.10e+03    9.228884e-01  -5.070981e-02\
+   3 1.7207489208e+07  -5.73e+05  9.10e+02    3.488470e-01  -1.685141e-02\
+   4 1.0223084197e+05  -1.67e+07  9.10e+01   -7.649063e-03   4.178195e-03\
+   5 1.0157110664e+05  -6.50e+02  9.10e+00   -9.876702e-03   4.309603e-03\
+   6 1.0157110664e+05  -2.54e-06  9.10e-01   -9.876841e-03   4.309611e-03\
+iter      chisq       delta/lim  lambda   c1            c2           \
+\
+After 6 iterations the fit converged.\
+final sum of squares of residuals : 101571\
+rel. change during last iteration : -2.53629e-11\
+\
+degrees of freedom    (FIT_NDF)                        : 23\
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 66.454\
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4416.14\
+\
+Final set of parameters            Asymptotic Standard Error\
+=======================            ==========================\
+c1              = -0.00987684      +/- 0.005764     (58.36%)\
+c2              = 0.00430961       +/- 0.0003402    (7.893%)\
+\
+correlation matrix of the fit parameters:\
+                c1     c2     \
+c1              1.000 \
+c2             -1.000  1.000 
+\fs22 \
+\
+\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+\
+\
+
+\fs14 gnuplot> fit f(x) 'datosQuicksort.txt' via c1,c2\
+iter      chisq       delta/lim  lambda   c1            c2           \
+   0 2.0497427736e+08   0.00e+00  3.95e+03   -9.876841e-03   4.309611e-03\
+   1 8.2671437579e+05  -2.47e+07  3.95e+02   -9.229082e-03   6.452914e-03\
+   2 7.4074239560e+05  -1.16e+04  3.95e+01   -1.069836e-02   6.583209e-03\
+   3 6.9741146592e+05  -6.21e+03  3.95e+00   -2.687905e-02   7.537725e-03\
+   4 6.9688909893e+05  -7.50e+01  3.95e-01   -2.885895e-02   7.654521e-03\
+   5 6.9688909815e+05  -1.12e-04  3.95e-02   -2.886138e-02   7.654664e-03\
+iter      chisq       delta/lim  lambda   c1            c2           \
+\
+After 5 iterations the fit converged.\
+final sum of squares of residuals : 696889\
+rel. change during last iteration : -1.12228e-09\
+\
+degrees of freedom    (FIT_NDF)                        : 23\
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 174.068\
+variance of residuals (reduced chisquare) = WSSR/ndf   : 30299.5\
+\
+Final set of parameters            Asymptotic Standard Error\
+=======================            ==========================\
+c1              = -0.0288614       +/- 0.0151       (52.31%)\
+c2              = 0.00765466       +/- 0.000891     (11.64%)\
+\
+correlation matrix of the fit parameters:\
+                c1     c2     \
+c1              1.000 \
+c2             -1.000  1.000 
+\fs22 \
+\
+\
+\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+\
+\
+
+\fs14 gnuplot> fit f(x) 'datosHeapsort.txt' via c1,c2\
+iter      chisq       delta/lim  lambda   c1            c2           \
+   0 7.0292712508e+08   0.00e+00  7.12e+03   -2.886138e-02   7.654664e-03\
+   1 6.0875173235e+06  -1.14e+07  7.12e+02   -2.573966e-02   1.150095e-02\
+   2 5.7246304721e+06  -6.34e+03  7.12e+01   -3.387349e-02   1.206137e-02\
+   3 5.5185182668e+06  -3.73e+03  7.12e+00   -7.148328e-02   1.428007e-02\
+   4 5.5180835766e+06  -7.88e+00  7.12e-01   -7.329073e-02   1.438669e-02\
+   5 5.5180835765e+06  -1.82e-06  7.12e-02   -7.329160e-02   1.438675e-02\
+iter      chisq       delta/lim  lambda   c1            c2           \
+\
+After 5 iterations the fit converged.\
+final sum of squares of residuals : 5.51808e+06\
+rel. change during last iteration : -1.81917e-11\
+\
+degrees of freedom    (FIT_NDF)                        : 23\
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 489.813\
+variance of residuals (reduced chisquare) = WSSR/ndf   : 239917\
+\
+Final set of parameters            Asymptotic Standard Error\
+=======================            ==========================\
+c1              = -0.0732916       +/- 0.04248      (57.96%)\
+c2              = 0.0143867        +/- 0.002507     (17.43%)\
+\
+correlation matrix of the fit parameters:\
+                c1     c2     \
+c1              1.000 \
+c2             -1.000  1.000 
+\fs22 \
+\
+\
+\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+\
+\pard\pardeftab720\sl280\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "http://verso.mat.uam.es/~pablo.fernandez/cap6-recurrencias.pdf"}}{\fldrslt 
+\f1\fs24 \cf3 \expnd0\expndtw0\kerning0
+\ul \ulc3 \CocoaLigature1 http://verso.mat.uam.es/~pablo.fernandez/cap6-recurrencias.pdf}}
+\f1\fs24 \cf3 \expnd0\expndtw0\kerning0
+\ul \ulc3 \CocoaLigature1  \'97> Explicaci\'f3n Hanoi pagina 4\
+\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs14 \cf2 \kerning1\expnd0\expndtw0 \ulnone \CocoaLigature0 gnuplot> f(x)=(2**x)*a1+a2\
+gnuplot> fit f(x) 'datosHanoi1.txt' via a1,a2\
+iter      chisq       delta/lim  lambda   a1            a2           \
+   0 9.7778315890e+19   0.00e+00  1.38e+09    1.000000e+00   1.000000e+00\
+   1 3.4808948961e+16  -2.81e+08  1.38e+08    2.188589e-02   1.000000e+00\
+   2 9.0296812793e+09  -3.85e+11  1.38e+07    3.079617e-03   1.000000e+00\
+   3 7.7428633425e+09  -1.66e+04  1.38e+06    3.076000e-03   1.000000e+00\
+   4 7.7428633425e+09  -2.66e-07  1.38e+05    3.076000e-03   1.000000e+00\
+iter      chisq       delta/lim  lambda   a1            a2           \
+\
+After 4 iterations the fit converged.\
+final sum of squares of residuals : 7.74286e+09\
+rel. change during last iteration : -2.65908e-12\
+\
+degrees of freedom    (FIT_NDF)                        : 24\
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 17961.6\
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.22619e+08\
+\
+Final set of parameters            Asymptotic Standard Error\
+=======================            ==========================\
+a1              = 0.003076         +/- 1.925e-06    (0.06259%)\
+a2              = 1                +/- 3745         (3.745e+05%)\
+\
+correlation matrix of the fit parameters:\
+                a1     a2     \
+a1              1.000 \
+a2             -0.340  1.000 
+\fs22 \
+\pard\pardeftab720\sl280\partightenfactor0
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+\
+\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+\
+https://es.wikipedia.org/wiki/Algoritmo_de_Floyd-Warshall#An%C3%A1lisis -> Floyd\
+\
+
+\fs14 gnuplot> f(x)=a1*x*x*x+a2*x*x+a3*x+a4\
+gnuplot> fit f(x) 'datosFloyd.txt' via a1,a2,a3,a4\
+iter      chisq       delta/lim  lambda   a1            a2            a3            a4           \
+   0 1.2647734436e+16   0.00e+00  9.71e+06    3.076000e-03   1.000000e+00   1.000000e+00   1.000000e+00\
+   1 4.8551227403e+12  -2.60e+08  9.71e+05   -3.257089e-04   7.854963e-01   9.998637e-01   9.999999e-01\
+   2 7.0621659753e+10  -6.77e+06  9.71e+04   -4.921857e-05   1.071852e-01   9.990562e-01   9.999991e-01\
+   3 7.3482148286e+05  -9.61e+09  9.71e+03    2.473093e-07  -1.002582e-03   9.988685e-01   9.999988e-01\
+   4 5.4787194788e+05  -3.41e+04  9.71e+02    3.246369e-07  -1.168947e-03   9.930260e-01   9.999817e-01\
+   5 2.1753028789e+05  -1.52e+05  9.71e+01    2.058957e-07  -7.360947e-04   6.248976e-01   9.989002e-01\
+   6 6.6503809321e+01  -3.27e+08  9.71e+00    7.004525e-09  -1.107123e-05   8.290744e-03   9.968316e-01\
+   7 5.3511183228e+00  -1.14e+06  9.71e-01    3.630375e-09   1.218832e-06  -2.136445e-03   9.712027e-01\
+   8 2.8237133426e+00  -8.95e+04  9.71e-02    4.048277e-09  -6.110798e-07   2.023050e-04   1.725323e-01\
+   9 2.5511522544e+00  -1.07e+04  9.71e-03    4.237199e-09  -1.438141e-06   1.258939e-03  -1.880264e-01\
+  10 2.5511466993e+00  -2.18e-01  9.71e-04    4.238056e-09  -1.441892e-06   1.263730e-03  -1.896615e-01\
+iter      chisq       delta/lim  lambda   a1            a2            a3            a4           \
+\
+After 10 iterations the fit converged.\
+final sum of squares of residuals : 2.55115\
+rel. change during last iteration : -2.17748e-06\
+\
+degrees of freedom    (FIT_NDF)                        : 22\
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.340531\
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.115961\
+\
+Final set of parameters            Asymptotic Standard Error\
+=======================            ==========================\
+a1              = 4.23806e-09      +/- 2.032e-10    (4.794%)\
+a2              = -1.44189e-06     +/- 7.764e-07    (53.85%)\
+a3              = 0.00126373       +/- 0.00083      (65.68%)\
+a4              = -0.189661        +/- 0.2362       (124.6%)\
+\
+correlation matrix of the fit parameters:\
+                a1     a2     a3     a4     \
+a1              1.000 \
+a2             -0.985  1.000 \
+a3              0.909 -0.965  1.000 \
+a4             -0.609  0.698 -0.834  1.000 \
+
+\fs22 \
+\
+\
+}

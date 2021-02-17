@@ -1,0 +1,14 @@
+Tiempo: 2e-06 s
+Tiempo: 0.005093 s
+Tiempo: 0.033283 s
+Tiempo: 0.110351 s
+Tiempo: 0.255164 s
+Tiempo: 0.489931 s
+Tiempo: 0.843353 s
+Tiempo: 1.33504 s
+Tiempo: 2.01489 s
+Tiempo: 2.84327 s
+Tiempo: 3.90756 s
+Tiempo: 5.12368 s
+Tiempo: 6.67608 s
+Tiempo: 8.44846 s

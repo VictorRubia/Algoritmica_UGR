@@ -1,0 +1,40 @@
+Para 1 comensales se tarda en ordenar 2.32e-07
+Se sientan así:
+0 
+(Donde el primero se sienta al lado del último)
+Para 2 comensales se tarda en ordenar 2.441e-06
+Se sientan así:
+0 1 
+(Donde el primero se sienta al lado del último)
+Para 3 comensales se tarda en ordenar 8.213e-06
+Se sientan así:
+0 1 2 
+(Donde el primero se sienta al lado del último)
+Para 4 comensales se tarda en ordenar 2.5642e-05
+Se sientan así:
+0 1 2 3 
+(Donde el primero se sienta al lado del último)
+Para 5 comensales se tarda en ordenar 0.00012035
+Se sientan así:
+0 1 3 2 4 
+(Donde el primero se sienta al lado del último)
+Para 6 comensales se tarda en ordenar 0.000678321
+Se sientan así:
+0 1 3 5 4 2 
+(Donde el primero se sienta al lado del último)
+Para 8 comensales se tarda en ordenar 0.0343577
+Se sientan así:
+0 1 2 3 5 4 7 6 
+(Donde el primero se sienta al lado del último)
+Para 9 comensales se tarda en ordenar 0.306121
+Se sientan así:
+0 1 4 8 2 7 5 3 6 
+(Donde el primero se sienta al lado del último)
+Para 10 comensales se tarda en ordenar 2.7513
+Se sientan así:
+0 1 7 9 6 2 5 3 8 4 
+(Donde el primero se sienta al lado del último)
+Para 12 comensales se tarda en ordenar 401.059
+Se sientan así:
+0 3 8 2 4 1 7 11 6 5 9 10 
+(Donde el primero se sienta al lado del último)

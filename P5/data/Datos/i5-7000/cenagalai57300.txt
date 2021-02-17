@@ -1,0 +1,60 @@
+Para 1 comensales se tarda en ordenar 9.97e-07
+Se sientan así:
+0 
+(Donde el primero se sienta al lado del último)
+Número de nodos explorados:0
+Para 2 comensales se tarda en ordenar 5.91e-06
+Se sientan así:
+0 1 
+(Donde el primero se sienta al lado del último)
+Número de nodos explorados:1
+Para 3 comensales se tarda en ordenar 1.5899e-05
+Se sientan así:
+0 1 2 
+(Donde el primero se sienta al lado del último)
+Número de nodos explorados:4
+Para 4 comensales se tarda en ordenar 6.0981e-05
+Se sientan así:
+0 1 3 2 
+(Donde el primero se sienta al lado del último)
+Número de nodos explorados:15
+Para 5 comensales se tarda en ordenar 0.000260365
+Se sientan así:
+0 1 4 3 2 
+(Donde el primero se sienta al lado del último)
+Número de nodos explorados:64
+Para 6 comensales se tarda en ordenar 0.00100069
+Se sientan así:
+0 1 5 2 3 4 
+(Donde el primero se sienta al lado del último)
+Número de nodos explorados:325
+Para 7 comensales se tarda en ordenar 0.0056116
+Se sientan así:
+0 1 6 4 3 2 5 
+(Donde el primero se sienta al lado del último)
+Número de nodos explorados:1956
+Para 8 comensales se tarda en ordenar 0.0353183
+Se sientan así:
+0 3 7 1 2 6 5 4 
+(Donde el primero se sienta al lado del último)
+Número de nodos explorados:13699
+Para 9 comensales se tarda en ordenar 0.307075
+Se sientan así:
+0 1 7 6 3 5 2 8 4 
+(Donde el primero se sienta al lado del último)
+Número de nodos explorados:109600
+Para 10 comensales se tarda en ordenar 2.98419
+Se sientan así:
+0 3 7 4 9 6 1 5 2 8 
+(Donde el primero se sienta al lado del último)
+Número de nodos explorados:986409
+Para 11 comensales se tarda en ordenar 32.3927
+Se sientan así:
+0 1 10 9 7 2 6 5 8 3 4 
+(Donde el primero se sienta al lado del último)
+Número de nodos explorados:9864100
+Para 12 comensales se tarda en ordenar 378.779
+Se sientan así:
+0 3 4 7 2 10 11 6 5 9 1 8 
+(Donde el primero se sienta al lado del último)
+Número de nodos explorados:108505111

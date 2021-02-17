@@ -1,0 +1,132 @@
+
+c:\users\victo\desktop\ugr\05_alg\practicas\alg p5\datos\i7juanca\bb\att48\att48_i7_10.txt
+************************************************************************
+TIEMPO (seg): 1.03076
+DISTANCIA: 19520.3
+TOUR: 1 3 2 4 10 5 6 7 9 8 1
+NODOS TOTALES: 3628800
+NODOS EXPLORADOS: 13577
+NODOS EXPANDIDOS: 39052
+NODOS PODADOS: 3615223
+
+
+
+c:\users\victo\desktop\ugr\05_alg\practicas\alg p5\datos\i7juanca\bb\att48\att48_i7_11.txt
+************************************************************************
+TIEMPO (seg): 3.79116
+DISTANCIA: 19593.6
+TOUR: 1 3 2 4 10 5 11 6 7 9 8 1
+NODOS TOTALES: 39916800
+NODOS EXPLORADOS: 36317
+NODOS EXPANDIDOS: 119136
+NODOS PODADOS: 39880483
+
+
+
+c:\users\victo\desktop\ugr\05_alg\practicas\alg p5\datos\i7juanca\bb\att48\att48_i7_12.txt
+************************************************************************
+TIEMPO (seg): 13.8036
+DISTANCIA: 19614.6
+TOUR: 1 3 2 4 10 5 11 12 6 7 9 8 1
+NODOS TOTALES: 479001600
+NODOS EXPLORADOS: 120931
+NODOS EXPANDIDOS: 442282
+NODOS PODADOS: 478880669
+
+
+
+c:\users\victo\desktop\ugr\05_alg\practicas\alg p5\datos\i7juanca\bb\att48\att48_i7_2.txt
+************************************************************************
+TIEMPO (seg): 1.8e-05
+DISTANCIA: 9453.31
+TOUR: 1 2 1
+NODOS TOTALES: 2
+NODOS EXPLORADOS: 2
+NODOS EXPANDIDOS: 1
+NODOS PODADOS: 0
+
+
+
+c:\users\victo\desktop\ugr\05_alg\practicas\alg p5\datos\i7juanca\bb\att48\att48_i7_3.txt
+************************************************************************
+TIEMPO (seg): 5.2e-05
+DISTANCIA: 9518.43
+TOUR: 1 3 2 1
+NODOS TOTALES: 6
+NODOS EXPLORADOS: 4
+NODOS EXPANDIDOS: 4
+NODOS PODADOS: 2
+
+
+
+c:\users\victo\desktop\ugr\05_alg\practicas\alg p5\datos\i7juanca\bb\att48\att48_i7_4.txt
+************************************************************************
+TIEMPO (seg): 0.000213
+DISTANCIA: 13104.7
+TOUR: 1 2 4 3 1
+NODOS TOTALES: 24
+NODOS EXPLORADOS: 10
+NODOS EXPANDIDOS: 14
+NODOS PODADOS: 14
+
+
+
+c:\users\victo\desktop\ugr\05_alg\practicas\alg p5\datos\i7juanca\bb\att48\att48_i7_5.txt
+************************************************************************
+TIEMPO (seg): 0.000987
+DISTANCIA: 13199.2
+TOUR: 1 3 5 4 2 1
+NODOS TOTALES: 120
+NODOS EXPLORADOS: 34
+NODOS EXPANDIDOS: 55
+NODOS PODADOS: 86
+
+
+
+c:\users\victo\desktop\ugr\05_alg\practicas\alg p5\datos\i7juanca\bb\att48\att48_i7_6.txt
+************************************************************************
+TIEMPO (seg): 0.004661
+DISTANCIA: 18061.1
+TOUR: 1 3 2 4 5 6 1
+NODOS TOTALES: 720
+NODOS EXPLORADOS: 129
+NODOS EXPANDIDOS: 228
+NODOS PODADOS: 591
+
+
+
+c:\users\victo\desktop\ugr\05_alg\practicas\alg p5\datos\i7juanca\bb\att48\att48_i7_7.txt
+************************************************************************
+TIEMPO (seg): 0.019532
+DISTANCIA: 18087.9
+TOUR: 1 3 2 4 5 6 7 1
+NODOS TOTALES: 5040
+NODOS EXPLORADOS: 394
+NODOS EXPANDIDOS: 822
+NODOS PODADOS: 4646
+
+
+
+c:\users\victo\desktop\ugr\05_alg\practicas\alg p5\datos\i7juanca\bb\att48\att48_i7_8.txt
+************************************************************************
+TIEMPO (seg): 0.080793
+DISTANCIA: 18704
+TOUR: 1 8 7 6 5 4 2 3 1
+NODOS TOTALES: 40320
+NODOS EXPLORADOS: 1361
+NODOS EXPANDIDOS: 3222
+NODOS PODADOS: 38959
+
+
+
+c:\users\victo\desktop\ugr\05_alg\practicas\alg p5\datos\i7juanca\bb\att48\att48_i7_9.txt
+************************************************************************
+TIEMPO (seg): 0.371947
+DISTANCIA: 18906.1
+TOUR: 1 3 2 4 5 6 7 9 8 1
+NODOS TOTALES: 362880
+NODOS EXPLORADOS: 5562
+NODOS EXPANDIDOS: 14259
+NODOS PODADOS: 357318
+
+
